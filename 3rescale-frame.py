@@ -13,7 +13,7 @@ def rescale_frame(frame, percent=75):
 while(True):
     # Capture frame-by-frame
     ret, frame = cap.read()
-    frame = rescale_frame(frame, percent=30)   #this is 30% of my camera image
+    frame = rescale_frame(frame, percent=30)   #this is 30% of my camera imag
     # Display the resulting frame
     cv2.imshow('frame',frame)
     
