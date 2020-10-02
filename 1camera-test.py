@@ -10,7 +10,7 @@ while(True):
     # Our operations on the frame come here
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
    
-    # Display the resulting frame
+    # Display the resulting fram
     cv2.imshow('frame',frame)
     
     cv2.imshow('frame1',frame) #i can have as many frame as i want
