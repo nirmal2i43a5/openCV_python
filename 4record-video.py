@@ -38,7 +38,7 @@ def get_dims(cap, res='1080p'):
 
 
 # Video Encoding, might require additional installs
-# Types of Codes: http://www.fourcc.org/codecs.php
+# Type of Codes: http://www.fourcc.org/codecs.php
 VIDEO_TYPE = {
     'avi': cv2.VideoWriter_fourcc(*'XVID'),
     #'mp4': cv2.VideoWriter_fourcc(*'H264'),
